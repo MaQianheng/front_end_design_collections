@@ -1,0 +1,100 @@
+.creative_button_animation_effects_2 a {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0  0 40px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    background-color: #06031d;
+}
+
+a span {
+    position: absolute;
+    display: block;
+    background-color: #03a9f4;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    transform: translateY(0);
+}
+
+a:hover span:nth-child(1) {
+    transition: .5s;
+    transform: translateY(-100%);
+}
+
+a span:nth-child(2) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateX(-100%);
+}
+
+a:hover span:nth-child(2) {
+    transform: translateX(100%);
+    transition: .75s;
+    transition-delay: .25s;
+}
+
+a span:nth-child(3) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transform: translateY(-100%);
+}
+
+a:hover span:nth-child(3) {
+    transition: .5s;
+    transition-delay: .5s;
+    transform: translateY(0);
+}
+
+a span:nth-child(4) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transform: translateY(0);
+}
+
+a:hover span:nth-child(4) {
+    transition: .5s;
+    transform: translateY(100%);
+}
+
+a span:nth-child(5) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateX(100%);
+}
+
+a:hover span:nth-child(5) {
+    transform: translateX(-100%);
+    transition: .75s;
+    transition-delay: .25s;
+}
+
+a span:nth-child(6) {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+a:hover span:nth-child(6) {
+    transition: .5s;
+    transition-delay: .5s;
+    transform: translateY(0);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: consolas, sans-serif;
+        }
+
+        ul {
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 0 20px;
+            font-size: 4em;
+        }
+
+        ul li a {
+            position: relative;
+            color: #eee;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        ul li a:before {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            overflow: hidden;
+            color: #262626;
+            white-space: nowrap;
+            transition: .5s ease-in-out;
+            width: 0;
+        }
+
+        /*ul:hover li a:before {*/
+        /*    animation: animate .5s steps(24) forwards;*/
+        /*}*/
+
+        /*@keyframes animate {*/
+        /*    0% {*/
+        /*        width: 100%;*/
+        /*    }*/
+        /*    100% {*/
+        /*        width: 0;*/
+        /*    }*/
+        /*}*/
+
+        ul li:hover a:before {
+            width: 100%;
+            /*animation: animate1 .3s steps(24) forwards;*/
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="#" data-text="Home">Home</a></li>
+            <li><a href="#" data-text="About">About</a></li>
+            <li><a href="#" data-text="Service">Service</a></li>
+            <li><a href="#" data-text="Menu">Menu</a></li>
+            <li><a href="#" data-text="Our Team">Our Team</a></li>
+            <li><a href="#" data-text="Contact Us">Contact Us</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
