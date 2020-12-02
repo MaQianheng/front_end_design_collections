@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: consolas;
+            overflow: hidden;
+        }
+
+        ul {
+            margin: 0 25%;
+            padding: 0;
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            color: #000;
+            text-decoration: none;
+            font-size: 4em;
+            margin: 0 100px;
+            white-space: nowrap;
+            padding: 5px 20px;
+            transition: 0.5s;
+        }
+
+        ul li a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">tag</a></li>
+        <li><a href="#">tag</a></li>
+        <li><a href="#">tag</a></li>
+        <li><a href="#">tag</a></li>
+        <li><a href="#">tag</a></li>
+        <li><a href="#">tag</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            let docWidth = $("body").width(),
+                slidesWidth = $("ul").width(),
+                rangeX = slidesWidth - docWidth,
+                $images = $("ul")
+            $(document).on("mousemove", function (e) {
+                let mouseX = e.pageX,
+                    offset = mouseX / docWidth * slidesWidth - mouseX / 2
+                console.log(offset)
+                $images.css({
+                    '-webkit-transform': `translate3d(${-offset}px, 0, 0)`,
+                    'transform': `translate3d(${-offset}px, 0, 0)`
+                })
+            })
+        })
+    </script>
+</body>
+</html>

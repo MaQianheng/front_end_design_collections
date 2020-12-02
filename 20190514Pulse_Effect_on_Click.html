@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .circle {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background: #000;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            animation: animate .5s linear forwards;
+        }
+
+        @keyframes animate {
+            0% {
+                width: 0;
+                height: 0;
+                opacity: 1;
+            }
+
+            70% {
+                opacity: 1;
+            }
+
+            100% {
+                width: 30px;
+                height: 30px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<script>
+    let pulse = function () {
+        let e = document.createElement("div");
+        e.setAttribute("class", "circle"),
+            document.body.append(e),
+            e.style.top = event.pageY + "px",
+            e.style.left = event.pageX + "px",
+            setTimeout(() => {
+                document.body.removeChild(e)
+            }, 500)
+    }
+    document.addEventListener("click", pulse)
+</script>
+</body>
+</html>

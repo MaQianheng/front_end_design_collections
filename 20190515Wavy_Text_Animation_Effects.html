@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/splitting.css">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: monospace;
+        }
+
+        .wave {
+            font-size: 4em;
+        }
+
+        .wave .char {
+            animation: animate 2s ease-in-out infinite;
+            transform: translateY(-2em);
+            animation-delay: calc(0.05s * var(--char-index));
+        }
+
+        @keyframes animate {
+            0%,100% {
+                transform: translateY(-2em) rotate(-25deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(2em) rotate(25deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wave" data-splitting>
+        Loading...
+    </div>
+    <script src="./js/splitting.js"></script>
+    <script>
+        Splitting()
+    </script>
+</body>
+</html>
