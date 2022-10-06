@@ -11,51 +11,51 @@ var createText = root.createTextNode.bind(root);
  * # setProperty
  * Apply a CSS var
  * @param {HTMLElement} el
- * @param {string} varName 
- * @param {string|number} value 
+ * @param {string} varName
+ * @param {string|number} value
  */
 function setProperty(el, varName, value) {
     el.style.setProperty(varName, value);
-} 
+}
 
 /**
- * 
- * @param {!HTMLElement} el 
- * @param {!HTMLElement} child 
+ *
+ * @param {!HTMLElement} el
+ * @param {!HTMLElement} child
  */
 function appendChild(el, child) {
   return el.appendChild(child);
 }
 
 /**
- * 
- * @param {!HTMLElement} parent 
- * @param {string} key 
- * @param {string} text 
- * @param {boolean} whitespace 
+ *
+ * @param {!HTMLElement} parent
+ * @param {string} key
+ * @param {string} text
+ * @param {boolean} whitespace
  */
 function createElement(parent, key, text, whitespace) {
   var el = root.createElement('span');
-  key && (el.className = key); 
-  if (text) { 
+  key && (el.className = key);
+  if (text) {
       !whitespace && el.setAttribute("data-" + key, text);
-      el.textContent = text; 
+      el.textContent = text;
   }
   return (parent && appendChild(parent, el)) || el;
 }
 
 /**
- * 
- * @param {!HTMLElement} el 
- * @param {string} key 
+ *
+ * @param {!HTMLElement} el
+ * @param {string} key
  */
 function getData(el, key) {
   return el.getAttribute("data-" + key)
 }
 
 /**
- * 
- * @param {import('../types').Target} e 
+ *
+ * @param {import('../types').Target} e
  * @param {!HTMLElement} parent
  * @returns {!Array<!HTMLElement>}
  */
@@ -87,7 +87,7 @@ function Array2D(len) {
 
 /**
  * A for loop wrapper used to reduce js minified size.
- * @param {!Array<T>} items 
+ * @param {!Array<T>} items
  * @param {function(T):void} consumer
  * @template T
  */
@@ -96,7 +96,7 @@ function each(items, consumer) {
 }
 
 /**
- * @param {T} obj 
+ * @param {T} obj
  * @return {function(string):*}
  * @template T
  */
@@ -111,8 +111,8 @@ function selectFrom(obj) {
  * Index split elements and add them to a Splitting instance.
  *
  * @param {HTMLElement} element
- * @param {string} key 
- * @param {!Array<!HTMLElement> | !Array<!Array<!HTMLElement>>} items 
+ * @param {string} key
+ * @param {!Array<!HTMLElement> | !Array<!Array<!HTMLElement>>} items
  */
 function index(element, key, items) {
     var prefix = '--' + key;
@@ -170,10 +170,10 @@ function resolvePlugins(by, parent, deps) {
 /**
  * Internal utility for creating plugins... essentially to reduce
  * the size of the library
- * @param {string} by 
- * @param {string} key 
- * @param {string[]} depends 
- * @param {Function} split 
+ * @param {string} by
+ * @param {string} key
+ * @param {string[]} depends
+ * @param {Function} split
  * @returns {import('./types').ISplittingPlugin}
  */
 function createPlugin(by, depends, key, split) {
@@ -206,9 +206,9 @@ function add(opts) {
  * # Splitting.split
  * Split an element's textContent into individual elements
  * @param {!HTMLElement} el  Element to split
- * @param {string} key 
- * @param {string} splitOn 
- * @param {boolean} includePrevious 
+ * @param {string} key
+ * @param {string} splitOn
+ * @param {boolean} includePrevious
  * @param {boolean} preserveWhitespace
  * @return {!Array<!HTMLElement>}
  */
@@ -257,7 +257,7 @@ function splitText(el, key, splitOn, includePrevious, preserveWhitespace) {
                 var splitEl = createElement(F, key, splitText);
                 elements.push(splitEl);
                 allElements.push(splitEl);
-            }); 
+            });
             // insert trailing space if there was one
             if (wholeText[wholeText.length - 1] === ' ') {
                 allElements.push(createText(' '));
@@ -290,7 +290,7 @@ var WORDS = 'words';
 var wordPlugin = createPlugin(
     /* by= */ WORDS,
     /* depends= */ _,
-    /* key= */ 'word', 
+    /* key= */ 'word',
     /* split= */ function(el) {
         return splitText(el, 'word', /\s+/, 0, 1)
     }
@@ -301,7 +301,7 @@ var CHARS = "chars";
 var charPlugin = createPlugin(
     /* by= */ CHARS,
     /* depends= */ [WORDS],
-    /* key= */ "char", 
+    /* key= */ "char",
     /* split= */ function(el, options, ctx) {
         var results = [];
 
@@ -315,7 +315,7 @@ var charPlugin = createPlugin(
 
 /**
  * # Splitting
- * 
+ *
  * @param {import('./types').ISplittingOptions} opts
  * @return {!Array<*>}
  */
@@ -324,7 +324,7 @@ function Splitting (opts) {
   var key = opts.key;
 
   return $(opts.target || '[data-splitting]').map(function(el) {
-    var ctx = el['🍌'];  
+    var ctx = el['🍌'];
     if (!opts.force && ctx) {
       return ctx;
     }
@@ -344,7 +344,7 @@ function Splitting (opts) {
         key2 && index(el, key2, results);
         ctx[pluginBy] = results;
         el.classList.add(pluginBy);
-      } 
+      }
     });
 
     el.classList.add('splitting');
@@ -354,7 +354,7 @@ function Splitting (opts) {
 
 /**
  * # Splitting.html
- * 
+ *
  * @param {import('./types').ISplittingOptions} opts
  */
 function html(opts) {
@@ -370,9 +370,9 @@ Splitting.add = add;
 
 /**
  * Detects the grid by measuring which elements align to a side of it.
- * @param {!HTMLElement} el 
+ * @param {!HTMLElement} el
  * @param {import('../core/types').ISplittingOptions} options
- * @param {*} side 
+ * @param {*} side
  */
 function detectGrid(el, options, side) {
     var items = $(options.matching || el.children, el);
@@ -388,9 +388,9 @@ function detectGrid(el, options, side) {
 
 /**
  * Sorting function for numbers.
- * @param {number} a 
+ * @param {number} a
  * @param {number} b
- * @return {number} 
+ * @return {number}
  */
 function byNumber(a, b) {
     return a - b;
@@ -408,7 +408,7 @@ var linePlugin = createPlugin(
 var itemPlugin = createPlugin(
     /* by= */ 'items',
     /* depends= */ _,
-    /* key= */ 'item', 
+    /* key= */ 'item',
     /* split= */ function(el, options) {
         return $(options.matching || el.children, el)
     }
@@ -417,7 +417,7 @@ var itemPlugin = createPlugin(
 var rowPlugin = createPlugin(
     /* by= */ 'rows',
     /* depends= */ _,
-    /* key= */ 'row', 
+    /* key= */ 'row',
     /* split= */ function(el, options) {
         return detectGrid(el, options, "offsetTop");
     }
@@ -426,7 +426,7 @@ var rowPlugin = createPlugin(
 var columnPlugin = createPlugin(
     /* by= */ 'cols',
     /* depends= */ _,
-    /* key= */ "col", 
+    /* key= */ "col",
     /* split= */ function(el, options) {
         return detectGrid(el, options, "offsetLeft");
     }
@@ -448,10 +448,10 @@ var layoutPlugin = createPlugin(
         var rows =  opts.rows = +(opts.rows || getData(el, 'rows') || 1);
         var columns = opts.columns = +(opts.columns || getData(el, 'columns') || 1);
 
-        // Seek out the first <img> if the value is true 
+        // Seek out the first <imgs> if the value is true
         opts.image = opts.image || getData(el, 'image') || el.currentSrc || el.src;
         if (opts.image) {
-            var img = $("img", el)[0];
+            var img = $("imgs", el)[0];
             opts.image = img && (img.currentSrc || img.src);
         }
 
@@ -513,8 +513,8 @@ var cellColumnPlugin = createPlugin(
 var cellPlugin = createPlugin(
     /* by= */ "cells",
     /* depends= */ ['cellRows', 'cellColumns'],
-    /* key= */ "cell", 
-    /* split= */ function(el, opt, ctx) { 
+    /* key= */ "cell",
+    /* split= */ function(el, opt, ctx) {
         // re-index the layout as the cells
         return ctx[LAYOUT];
     }

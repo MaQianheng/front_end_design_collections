@@ -1,59 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbcadab5-edea-45ac-a3aa-bed690707994" name="Default Changelist" comment="" />
+    <list default="true" id="abb05d6a-a421-406d-a2ad-9322501ce453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20190518Horizontal_Page_Scroll_On_Mousemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20190519Contact_Us_From.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/202005123D Infinity Effect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20210717Split Video on Page Scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20210828Animated Circle Text Logo Effects using CSS &amp; Javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20220913-Animated Login Form/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/20220913-Animated Login Form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Animated Grandient Background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Animated Mouse Scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CSS 3D Flip Checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CSS 3d Layered Image Hover Effects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Change Full Screen Image On Hover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CheckBox List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CheckBox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Flipping Card Hover Effect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Flipping Card Hover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Full Screen Landing Page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Glowing Dots on Hover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Glowing Gradient Button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Glowing Gradient Icon Hover Effects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Glowing Gradient loader ring.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MouseMove Animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pure CSS Animated Sake Border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Quick Loading Bar Animation Effects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Skewed Border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Square_Loader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effects/20220915-iPhone 14 Dynamic Island Effect/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effects/20220915-iPhone 14 Dynamic Island Effect/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/ios-wallpaper.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HTML_sources.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190514Pulse_Effect_on_Click.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/20190514Pulse_Effect_on_Click.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190515Wavy_Text_Animation_Effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/20190515Wavy_Text_Animation_Effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190516Glowing_List_Item_Hover_Effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/20190516Glowing_List_Item_Hover_Effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190518Horizontal_Page_Scroll_On_Mousemove.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190519Contact_Us_From.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/202005123D Infinity Effect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/css/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola2.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola3.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola4.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola5.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/cocacola6.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/cocacola6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/imgs/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20201129Responsive_Website_Design/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20201129Responsive_Website_Design/js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/menus/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/menus/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/lib/ionicons/ionicons.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/menus/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/lib/ionicons/ionicons.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/lib/ionicons/ionicons.js" beforeDir="false" afterPath="$PROJECT_DIR$/menus/20210630Sidebar_Menu_Curved_Outside_in_Active_Tab/lib/ionicons/ionicons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210717Split Video on Page Scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210828Animated Circle Text Logo Effects using CSS &amp; Javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/fb1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/fb1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/fb2.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/fb2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/fb3.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/fb3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/fb4.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/fb4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/fb5.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/fb5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/imgs/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/imgs/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20210901Responsive Facebook App Landing Page Website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webs/20210901Responsive Facebook App Landing Page Website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3D Rotation Animation Effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/3D Rotation Animation Effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animated Grandient Background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animated Mouse Scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS 3D Flip Checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS 3d Layered Image Hover Effects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-snap-effect/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/effects/CSS-snap-effect/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-snap-effect/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/effects/CSS-snap-effect/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Change Full Screen Image On Hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckBox List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckBox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flipping Card Hover Effect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flipping Card Hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full Screen Landing Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Glowing Dots on Hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Glowing Gradient Button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Glowing Gradient Icon Hover Effects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Glowing Gradient loader ring.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MouseMove Animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pure CSS Animated Sake Border.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pure CSS Text Reveal From Smoke Animation Effect/Pure CSS Text Reveal From Smoke Animation Effect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pure CSS Text Reveal From Smoke Animation Effect/fade_in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pure CSS Text Reveal From Smoke Animation Effect/smoke.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quick Loading Bar Animation Effects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skewed Border.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Square_Loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TikTok_Animation_Effects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/splitting-cells.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/splitting-cells.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/splitting.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/css/splitting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOS14_native_wallpaper_copy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/avatar-001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/0d016c1d4607b0c5cbe88174b037be86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/0d016c1d4607b0c5cbe88174b037be86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1037199-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/1037199-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1186807-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/1186807-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2fons.ru-58263.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/2fons.ru-58263.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6953240-eiffel-tower-paris-hd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/6953240-eiffel-tower-paris-hd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Boston+Bridge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Boston+Bridge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Dubai-Wallpapers-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Dubai-Wallpapers-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Social-App-Show01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Social-App-Show01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Worlds-Most-Beautiful-Girls-1080p-Wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/Worlds-Most-Beautiful-Girls-1080p-Wallpaper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apps.17599.14222458110220046.63cf67f1-c306-44d3-8890-1cc6b204e75a.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/apps.17599.14222458110220046.63cf67f1-c306-44d3-8890-1cc6b204e75a.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ba1469b14c59b0c5d7f7c1d559c0f71f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/ba1469b14c59b0c5d7f7c1d559c0f71f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beautiful-light-city-wallpaper-hd-1080p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/beautiful-light-city-wallpaper-hd-1080p.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beautiful-wallpaper-2-beautiful-pictures-38538867-2560-1600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/beautiful-wallpaper-2-beautiful-pictures-38538867-2560-1600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beautiful-wallpaper-hd-1080p-233347.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/beautiful-wallpaper-hd-1080p-233347.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hongkong2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/hongkong2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hudson-river-new-york-city-1080P-wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/hudson-river-new-york-city-1080P-wallpaper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jetty-sea-dawn-206359.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/jetty-sea-dawn-206359.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maldives-beach.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/maldives-beach.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/millennium_wheel-wide-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/millennium_wheel-wide-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/new-york-city-skyline-BIGCITY0117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/new-york-city-skyline-BIGCITY0117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/orig.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/orig.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stock-photo-150595123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/stock-photo-150595123.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/splitting-lite.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/js/splitting-lite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/splitting-lite.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/js/splitting-lite.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/splitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/js/splitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/splitting.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/js/splitting.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigators/js/modernizr.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigators/js/modernizr.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/iOS14_native_wallpaper_copy/class_circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/others/iOS14_native_wallpaper_copy/class_circle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/iOS14_native_wallpaper_copy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/others/iOS14_native_wallpaper_copy/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1l0Ur9RQvFqlptLSSDvkAgOUUjP" />
+  <component name="ProjectId" id="2FlLYSXt2M1viqTkSu7bDUYFRDm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/20201129Responsive_Website_Design/imgs" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbcadab5-edea-45ac-a3aa-bed690707994" name="Default Changelist" comment="" />
-      <created>1606733698042</created>
+      <changelist id="abb05d6a-a421-406d-a2ad-9322501ce453" name="Default Changelist" comment="" />
+      <created>1665061772164</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606733698042</updated>
-      <workItem from="1606733699055" duration="18445000" />
+      <updated>1665061772164</updated>
+      <workItem from="1665061774181" duration="5738000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1160" y="327" width="540" height="524" key="StructurePopup" timestamp="1607267517782">
-      <screen x="0" y="23" width="1920" height="1131" />
+    <state x="1076" y="201" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1665066187179">
+      <screen x="0" y="25" width="1920" height="1123" />
     </state>
-    <state x="1160" y="327" width="540" height="524" key="StructurePopup/0.23.1920.1131@0.23.1920.1131" timestamp="1607267517782" />
+    <state x="1076" y="201" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1920.1123@0.25.1920.1123" timestamp="1665066187179" />
   </component>
 </project>
